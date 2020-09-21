@@ -9,4 +9,12 @@ class testController extends Controller
     public function show() {
     	return "test Controller Berhasil";
     }
+
+    public function insert() {
+
+    }
+
+    public function delete() {
+    	
+    }
 }
