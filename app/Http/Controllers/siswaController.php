@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class siswaController extends Controller
+class siswacontroller extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +13,8 @@ class siswaController extends Controller
      */
     public function index()
     {
-        return "ini adalah indexx";
-        // untuk menampilkan view data
+        return "ini adalah index";
+        //untuk menampilkan view data
     }
 
     /**
@@ -24,7 +24,7 @@ class siswaController extends Controller
      */
     public function create()
     {
-        // untuk menampilkan form tambah data siswa
+        //
     }
 
     /**
